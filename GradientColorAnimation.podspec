@@ -24,11 +24,10 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "颜色渐变的动画,超级无敌!"
 
   s.homepage     = "https://github.com/DreamYu/GrandientColorAnimation"
-  s.screenshots  = "https://github.com/DreamYu/GrandientColorAnimation/blob/master/grandientImage.gif"
+  #s.screenshots  = "https://github.com/DreamYu/GrandientColorAnimation/blob/master/grandientImage.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/DreamYu/GrandientColorAnimation", :tag => s.version }
+  s.source       = { :git => "https://github.com/DreamYu/GrandientColorAnimation.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +88,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "GrandientView/**/*.{h,m}"
+  # s.source_files  = "RWGradientAnimation/GrandientView/*.{h,m}"
+  # s.source_files  = "RWGradientAnimation/GrandientView/*"
+  s.source_files  = "RWGradientAnimation/GrandientView/*"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -128,7 +129,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
