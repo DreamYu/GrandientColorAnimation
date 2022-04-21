@@ -225,7 +225,7 @@
 				TargetAttributes = {
 					B045D0201E83D4380090F5C2 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 829RJU5YX4;
+						DevelopmentTeam = D5F8GYKU76;
 						ProvisioningStyle = Automatic;
 					};
 					B045D0391E83D4380090F5C2 = {
@@ -245,6 +245,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -443,7 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 829RJU5YX4;
+				DEVELOPMENT_TEAM = D5F8GYKU76;
 				INFOPLIST_FILE = RWGradientAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RoyWang.RWGradientAnimation;
@@ -455,7 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 829RJU5YX4;
+				DEVELOPMENT_TEAM = D5F8GYKU76;
 				INFOPLIST_FILE = RWGradientAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RoyWang.RWGradientAnimation;
@@ -528,6 +529,7 @@
 				B045D0501E83D4380090F5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B045D0511E83D4380090F5C2 /* Build configuration list for PBXNativeTarget "RWGradientAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				B045D0531E83D4380090F5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B045D0541E83D4380090F5C2 /* Build configuration list for PBXNativeTarget "RWGradientAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +547,7 @@
 				B045D0561E83D4380090F5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
