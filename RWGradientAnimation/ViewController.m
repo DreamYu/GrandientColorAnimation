@@ -21,7 +21,6 @@
     RWGrandientView *grandientView = [[RWGrandientView alloc] initWithFrame:self.view.frame];
     [self.view addSubview:grandientView];
 
-    NSLog(@"1");
 }
 
 
